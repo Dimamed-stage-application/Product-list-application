@@ -40,12 +40,12 @@ Download en importeer de database vanuit het bestand 'dimadb.sql' in je MySQL se
 
 ### 5. .env bestand configureren
 Maak een kopie van het `.env.example` bestand en hernoem deze naar `.env`. Pas de database-instellingen aan:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=dimemed_db
-DB_USERNAME=root
-DB_PASSWORD=
+ * DB_CONNECTION=mysql
+ * DB_HOST=127.0.0.1
+ * DB_PORT=3306
+ *  DB_DATABASE=dimadb
+ *  DB_USERNAME=root
+ *   DB_PASSWORD=
 
 ### 6. Laravel startem
 composer run dev
@@ -57,10 +57,10 @@ Je kunt producten toevoegen door op de "Add Product" knop te klikken en de verei
 en producten bewerken of verwijderen door op de respectievelijke knoppen naast elk product te klikken.
 voor het toevoegen van een productafbeelding, gebruik een geldige image link in plaats van een upload.
 maak gebruik van deze links of zoek zelf naar geschikte image links:
-https://images.ctfassets.net/os4qrmlr8hsb/2pKaIrMlc7vjUhKAH1rGFh/95766ec2d888b8c542d23d9c2054a383/Shampoo.jpg?fm=webp&w=3840
-https://media.s-bol.com/JRRZv89XwAL2/wOyOWJ/550x467.jpg
-https://hydropeptide.nl/cdn/shop/files/012224_New_Retail_Packaging_PowerSerum_PDP.jpg?v=1752053271
-https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKnwRSqKNKXYhIJhDTg4Kqr54lYb--ec51XzIkvRM05hzEjNxefNEGDm4WGLynb28vrZWpxB7T6hNjo4FBSJl9_8TFCi1rLaZ5XWofcQnRpbh99ip4CbHBEg
+ * https://images.ctfassets.net/os4qrmlr8hsb/2pKaIrMlc7vjUhKAH1rGFh/95766ec2d888b8c542d23d9c2054a383/Shampoo.jpg?fm=webp&w=3840
+ * https://media.s-bol.com/JRRZv89XwAL2/wOyOWJ/550x467.jpg
+ *  https://hydropeptide.nl/cdn/shop/files/012224_New_Retail_Packaging_PowerSerum_PDP.jpg?v=1752053271
+ * https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKnwRSqKNKXYhIJhDTg4Kqr54lYb--ec51XzIkvRM05hzEjNxefNEGDm4WGLynb28vrZWpxB7T6hNjo4FBSJl9_8TFCi1rLaZ5XWofcQnRpbh99ip4CbHBEg
 
 Auteur: Jair Wey
 Stagebedrijf: Dimemed
