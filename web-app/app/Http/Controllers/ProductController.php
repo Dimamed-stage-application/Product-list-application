@@ -24,6 +24,7 @@ class ProductController extends Controller
             'name' => 'required',
             'price' => 'required|integer',
             'ImageURL' => 'required|string',
+            'description' => 'nullable|string',
         ]);
 
         $newProduct = Product::create($data);
@@ -40,6 +41,7 @@ class ProductController extends Controller
             'name' => 'required',
             'price' => 'required|integer',
             'ImageURL' => 'required|string',
+            'description' => 'nullable|string',
         ]);
 
         $product->update($data);
