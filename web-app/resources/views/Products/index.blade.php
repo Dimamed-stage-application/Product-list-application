@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Document</title>
 </head>
 <body>
- <h1>
+ <h1l>
     Products
- </h1>
+ </h1l>
  <div>
      @if(session()->has('success'))
          <div>
@@ -21,7 +22,7 @@
  </div>
 
  <div>
-     <table border="1">
+     <table class="table-auto">
          <tr>
                 <th>ID</th>
                 <th>Name</th>
